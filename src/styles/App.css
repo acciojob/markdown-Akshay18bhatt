@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 h1 {
     color: #27aedb;
     text-align: center;
@@ -9,4 +14,15 @@ button{
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.textarea,.preview{
+    padding: 20px;
+    border: 2px solid black;
+}
+.app{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    box-sizing: border-box;
 }
